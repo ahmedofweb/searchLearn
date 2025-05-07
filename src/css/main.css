@@ -109,11 +109,11 @@
 }
 
 .color-pr{
-    background-color: #A445ED;
+    background-color: #388e3c;
 }
 .loader {
     border: 10px solid #f3f3f3; /* Light grey */
-    border-top: 10px solid #A445ED; /* Blue */
+    border-top: 10px solid #388e3c; /* Blue */
     border-radius: 50%;
     width: 80px;
     height: 80px;
