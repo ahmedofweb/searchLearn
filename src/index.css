@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.error {
+  color: red;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 8px;
+  flex: 1;
+}
+button {
+  padding: 8px 16px;
+}
+.border-form {
+  border: 2px solid #ccc;
+}
+.red-border {
+  border: 2px solid red;
+}
+.loader {
+  font-weight: bold;
+  margin: 10px 0;
+}

@@ -1,0 +1,140 @@
+.container {
+}
+.main-container {
+}
+.search {
+    border-radius: 16px;
+    background-color: #F4F4F4;
+    display: flex;
+    padding: 20px 18px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+.border-form{
+    border: 1px solid #A445ED;;
+}
+.error{
+    color: red;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .red-border{
+    border: 1px solid red;
+  }
+  .error-info{
+    text-align: center;
+  }
+.color-light{
+    color: #fff;
+}
+.mode-form{
+    color: #fff;
+    background-color: #1f1f1f
+  }
+.search input{
+    width: 100%;
+    border: 0;
+    background-color: inherit;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.info-header {
+    margin-bottom: 40px;
+}
+.info-header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.title {
+    display: flex;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.info-header p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #A445ED;
+}
+
+.noun div{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.noun-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.noun-meaning{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #757575;
+}
+.noun-item{
+    
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: #E9E9E9;
+}
+
+.synonim{
+    display: flex;
+    align-items: center;
+}
+.synonym p{
+    margin-right: 2px;
+    font-weight: 700;
+    color: #A445ED;
+    text-decoration: none;
+}
+.source{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.color-pr{
+    background-color: #A445ED;
+}
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #A445ED; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .hidden{
+    display: none;
+  }
+  @media screen and (max-width: 500px){
+    .loader{
+        left: 40%;
+    }
+  }
+
